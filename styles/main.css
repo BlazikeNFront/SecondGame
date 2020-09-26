@@ -1,0 +1,39 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:80%;
+    max-width: 960px;
+}
+.playerLifeBar {
+ border:1px solid black;
+ font-size:20px;
+ text-align:center;
+
+}
+.categoryHint {
+    border:1px solid coral;
+    text-align:center;
+}
+.letters {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid cyan;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.letters button  {
+    margin:10px;
+    width:30px;
+    height:30px;
+    font-size:15px;
+}
+
+.quoteDiv {
+    border:1px solid red;
+    text-align:center;
+}
