@@ -5,6 +5,8 @@ body {
 }
 
 .container {
+    margin:0 auto;
+    margin-top:100px;
     width:80%;
     max-width: 960px;
 }
@@ -36,4 +38,7 @@ body {
 .quoteDiv {
     border:1px solid red;
     text-align:center;
+    font-size: 31px;
+    letter-spacing: 5px;
+
 }
