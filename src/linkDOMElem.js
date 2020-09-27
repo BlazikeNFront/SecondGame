@@ -1,5 +1,5 @@
 
-// access to DOMElement by syntax domElements["data-grab-attribute"]
+// access to DOMElement by syntax -  domElements["data-grab-attribute"]
 
 
 export const grabDomElem = () => {

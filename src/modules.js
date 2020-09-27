@@ -24,8 +24,10 @@ export const drawEntry = () => {return entries[pickEntry()]};
 
 export const renderText= (div,text,DOMList) => {
     const domElem = document.createElement('p');
+    if(div ==='quoteDiv'){domElem.dataset.grab = 'quote'}
     domElem.innerText = `${text}`;
     DOMList[`${div}`].appendChild(domElem);
 }
+
 
 
